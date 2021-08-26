@@ -195,15 +195,6 @@ button#hamburgerButton {
   100% {
     transform: scale(1) rotate(0);
   } 
-} 
-
-.fa-ello {
-  color: blue;
-}
-/* Bagian Content, Tulis codenya dibawah */
-
-.fa-dev {
-  color: red;
 }
 
 main {
@@ -359,12 +350,6 @@ footer {
 .Sosmed a {
   text-decoration: none;
   color: #f7f7f7;
-}
-.Sosmed a i {
-  font-size: 1.1rem;
-}
-.Sosmed a:hover i{
-  color: aqua;
 }
 
 .footer-bottom {
