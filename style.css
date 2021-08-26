@@ -34,9 +34,9 @@ header {
   box-shadow: 0 5px #B3D8CB;
 }
 .header-logo {
-height: 90px;
-float: left;
-cursor: pointer;
+  height: 90px;
+  float: left;
+  cursor: pointer;
 }
 .header-logo img {
   width: 70px;
@@ -58,6 +58,8 @@ cursor: pointer;
 .header-list a {
   text-decoration: none;
   color: #000000;
+  min-height: 44px;
+  min-width: 44px;
 }
 .header-list li::after {
   content: '';
@@ -118,6 +120,13 @@ button#hamburgerButton {
   text-transform: uppercase;
 }
 
+.jumbotron h1 > p {
+  color: var(--common-color);
+  margin-top: 15px;
+  font-weight: 200;
+  font-size: 2rem;
+}
+
 .jumbotron span {
   color: #ff0000;
   padding: 20px;
@@ -128,7 +137,7 @@ button#hamburgerButton {
 }
 
 #exploreBtn {
-  border: 2px solid black;
+  border: 2px solid red;
   padding: 15px;
   font-size: 17px;
   cursor: pointer;
@@ -229,6 +238,11 @@ section#fighters {
 
 .fighter-desc {
   font-size: 1.1rem;
+}
+
+.fighter-desc a {
+  text-decoration: none;
+  color: blue;
 }
 
 .fighter {

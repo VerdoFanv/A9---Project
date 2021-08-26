@@ -32,6 +32,11 @@
         text-align: center;
     }
 
+    .header-list ul li a {
+        display: block;
+        line-height: 44px;
+    }
+
     .fighter {
         width: calc(100% / 1);
     }
@@ -76,6 +81,10 @@
     section#faq img {
       height: 250px;
     }
+
+    .jumbotron h1 > p {
+        font-size: 1.5rem;
+    }
 }
 
 @media all and (max-width: 375px) {
@@ -86,6 +95,10 @@
     section#faq img {
       height: 230px;
     }
+
+    .jumbotron h1 > p {
+        font-size: 1.3rem;
+    }
 }
 
 @media all and (max-width: 320px) {
@@ -95,6 +108,10 @@
 
     section#faq img {
       height: 200px;
+    }
+
+    .jumbotron h1 > p {
+        font-size: 1.2rem;
     }
 
     .footer-content-left p {
