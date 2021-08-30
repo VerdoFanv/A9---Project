@@ -1,7 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Prompt:wght@100;400&display=swap');
+
 :root {
-  --head-color: #CEE5D0;
-  --content-color: #F3F0D7;
-  --footer-color: #F7D59C;
+  --head-color: #bae7cf;
+  --content-color: #e1e1e1;
+  --card-color: #ff8d49;
+  --footer-color: #86ac92;
   --common-color: #5E454B;
 }
 
@@ -113,6 +116,10 @@ button#hamburgerButton {
   flex-wrap: wrap;
 }
 
+.jumbotron h1, .jumbotron p {
+  font-family: 'Prompt', Calibri;
+}
+
 .jumbotron h1 {
   width: 50%;
   font-size: 3rem;
@@ -137,11 +144,12 @@ button#hamburgerButton {
 }
 
 #exploreBtn {
-  border: 2px solid red;
+  border: none;
   padding: 15px;
   font-size: 17px;
   cursor: pointer;
-  background-color: var(--footer-color);
+  background-color: var(--card-color);
+  border-radius: 3px;
   font-weight: bolder;
   -webkit-animation-name: tada; 
   animation-name: tada;
@@ -216,10 +224,12 @@ section#fighters {
 }
 
 .fighter-info {
+  border-top: 2px solid white;
   padding: 10px;
   text-align: left;
   height: 150px;
   font-size: 1.2rem;
+  overflow-y: hidden;
 }
 
 .fighter-name {
@@ -229,6 +239,7 @@ section#fighters {
 
 .fighter-desc {
   font-size: 1.1rem;
+  color: white;
 }
 
 .fighter-desc a {
@@ -241,7 +252,7 @@ section#fighters {
   width: calc(100% / 4);
   padding: 15px;
   margin: 15px;
-  background-color: var(--footer-color);
+  background-color: var(--card-color);
   border-radius: 3px;
 }
 
@@ -272,6 +283,7 @@ button.tmbl{
 .foto-fighter{
   width : 100%;
   margin : auto;
+  margin-bottom: 5px;
 }
 
 /* faq section */
@@ -289,7 +301,7 @@ section#faq img {
 
 /* Bagian Footer, Tulis codenya dibawah */
 footer {
-  background-color: var(--common-color);
+  background-color: var(--footer-color);
   height: auto;
   width: 100%;
   font-family: "Open Sans";
